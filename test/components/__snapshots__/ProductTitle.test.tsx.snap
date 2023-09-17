@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ProductTitle Debería mostrar el titulo correctamente 1`] = `
+<div>
+  <span
+    class="productDescription "
+  >
+    Producto Prueba
+  </span>
+</div>
+`;
