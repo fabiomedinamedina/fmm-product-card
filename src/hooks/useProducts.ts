@@ -30,18 +30,14 @@ export const useProducts = ({ onChange, product, value = 0, initialValues }:useP
     setCounter( initialValues?.count || value );
   }
 
-  
-
   useEffect(() => {
     if(!isMounted.current) return;
     setCounter( initialValues?.count || value );
   }, [value, initialValues?.count]);
 
-
   useEffect(() => {
     isMounted.current = true
   }, []);
-  
   
   return {
     counter,
